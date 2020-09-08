@@ -2,7 +2,7 @@
 
 centos 安装 python3.7.9，发现 pip install 运行不了，是因为 openssl 版本问题，搞了很久发现没有可行的方式，后来才发现正确的升级 openssl 的方法
 
-`````markdown
+```markdown
 升级步骤：
 
 1、去官网下载最新版本，或 wget 下载也行 http://www.openssl.org
@@ -55,8 +55,7 @@ ln -s /usr/local/openssl/lib/libcrypto.so.1.1 /usr/lib/
 ./configure --prefix=/usr/local/python37 --with-openssl=/usr/local/openssl
 make
 make install
-
-````
+```
 
 ## Welcome to LinarAI Pages
 
@@ -87,10 +86,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-````
-`````
-
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -101,4 +96,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+```
+thank you
+
 ```
