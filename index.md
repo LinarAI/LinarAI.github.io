@@ -56,7 +56,8 @@ ln -s /usr/local/openssl/lib/libcrypto.so.1.1 /usr/lib/
 make
 make install
 
-````markdown
+````
+
 ## Welcome to LinarAI Pages
 
 You can use the [editor on GitHub](https://github.com/LinarAI/LinarAI.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
